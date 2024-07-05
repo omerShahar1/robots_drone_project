@@ -1,3 +1,20 @@
+# Introduction
+This project involves a drone simulator designed to navigate and map an environment using different algorithms. The primary goal is to compare the efficiency of these algorithms in terms of area discovered.
+
+# Project Structure
+Simulator: The core simulation environment where the drone navigates through a given map.
+Algorithms: Different strategies implemented for the drone to explore the map.
+Improvements: Enhancements made to the original simulator and algorithms.
+
+# Improvements Made
+* ensure the drone's battery lasts exactly 8 minutes (480 seconds) under typical usage. The simulator runs until the drone's battery is depleted.
+* Refined the area calculation method to consider only navigable areas, excluding walls and obstacles.
+* Updated the visualization components to better represent the drone's path and the explored areas.
+* Improved pathfinding algorithms to ensure more efficient coverage of the map.
+* Enhanced decision-making logic to reduce redundant movements and improve overall coverage.
+* Implemented adaptive speed control based on the environment and battery levels.
+
+
 # Drone Simulator
 The main goal for this project is to try find good solution of small drone, flying inside indoor building without getting hit and crash.
 The project fully autonomous 2d drone simulator, this simulator is trying to be realistic as much as it can, with lidar sensors,gyroscope sensor ,optical flow sensor and speed sensor.
